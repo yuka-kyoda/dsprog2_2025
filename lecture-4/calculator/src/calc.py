@@ -8,7 +8,7 @@ class CalcButton(ft.ElevatedButton):
         self.text = text
         self.expand = expand
         self.on_click = button_clicked
-        self.data = text  # ボタン識別用
+        self.data = text
 
 
 class DigitButton(CalcButton):
